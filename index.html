@@ -3,10 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type"text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type"text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script href="assets/javascript/game.js"></script>
 </head>
 <body>
+    <div class="container">
+        <div class="game-name">
+            <h1>Crystals Collector!</h1>
+        </div>
+        
+        <div class="instructions">
+            <p class="how-to">You will be given a random number at the start of the game.</p>
+            <p class="how-to">There are four crystals below. By clickingon a crystal you will add a specific amount of points to your total score.</p>
+            <p class="how-to">You win the game by matching your ttal score to the random number, you lose the game if your total score goes above the random number.</p>
+            <p class="how-to">The value of each crystal is hidden from you until you click on it.</p>
+            <p class="how-to">Each time when the game starts, the game will change the values of each crystal.</p>
+
+        </div>
+        
+        <div class="value-score">
+            <div class="goal-value">
+            </div>
+
+            <div class="keep-score">
+                <p class="score-message"></p>
+                <p class="wins">Wins: </p>
+                <p class="losses">Losses: </p>
+
+            </div>
+        </div>
+
+        <div class="crystals">
+            <img class="one" src="assets/images/crystal.jpg" alt="crystal" height="120" width="80">
+            <img class="two" src="assets/images/crystal.jpg" alt="crystal" height="120" width="80">
+            <img class="three" src="assets/images/crystal.jpg" alt="crystal" height="120" width="80">
+            <img class="four" src="assets/images/crystal.jpg" alt="crystal" height="120" width="80">
+
+        </div>
+
+        <div class="your-score">
+            <div class="score-label">
+                <p>Your total score is: </p>
+            </div>
+
+            <div class="score">
+            </div>
+        </div>
+
+        
+    </div>
     
 </body>
 </html>
